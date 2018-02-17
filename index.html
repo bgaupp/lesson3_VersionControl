@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>INSERT YOUR NAME</title>
+    <title>Bonnie Gaupp</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -67,7 +67,7 @@
         <div class="headline">
             <div class="container">
                 <h2>Lesson 3 Highlights</h2>
-                <h3>INSERT YOUR NAME</h3>
+                <h3>Bonnie Gaupp</h3>
             </div>
         </div>
     </header>
@@ -79,55 +79,70 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="topic1">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/control.png">
             <h2 class="featurette-heading">Highlight #1
-                <span class="text-muted">Topic 1 Header</span>
+                <span class="text-muted">Version Control</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Version Control, also referred to as Revision Control or Source Control Management, is a category of software that is used to manage the changes made to documents, software, and other collections of information over time. Version control software keeps track of every modification made to a piece of information, whether that be a document or a segment of source code. Serving as a large repository for all project files, the software can also help prevent mistakes when team members are working on the same file simultaneously. All of this can be done with little overhead cost. 
+
+                <br><br>There are 3 types of version control systems: local, centralized, and distributed. Local version control systems function on your local machine. A database stores versions of your files that you can check in and out as you progress in your work. A centralized version control system works on a single server that several users can access. Multiple users can check files in and out, and versions of those files are all stored on the central server. Distributed control systems create mirrored versions of the repository. Each user receives a mirrored version of the project that contains the full history. Since users have access to mirrored files, they can usually work offline as well.  
+            </p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
         <div class="featurette" id="topic2">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/Git.png">
             <h2 class="featurette-heading">Highlight #2
-                <span class="text-muted">Topic 2 Header</span>
+                <span class="text-muted">Git</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git is a distributed version control system used for tracking changes in computer files among multiple users. This free open-source software, built by Linux, is designed with speed and the ability to handle large data packages. It’s a simple design that is fully distributed, meaning it’s development is non-linear and has multiple parallel branches. Git stores data as snapshots over time. If a user edits a particular file, Git stores a snapshot of the latest version of that file. If the file is already stored and has not been edited, Git stores a link to the latest version of that file. By working and downloading all file versions on local machines, users have the ability to work offline and upload to the Git server once they are back online. This makes operations almost instantaneous since the entire history of a project is stored on a user’s local machine. 
+
+                <br><br>Git generally only adds data. In fact, it’s difficult to lose file information since everything in Git is “check-summed” before storage. Using a 40-character hexadecimal string called a “SHA-1 hash,” Git has a way of identifying all versions of files before being stored in the repository. Files in Git reside in 3 states: Committed, Modified, and Staged. Committed files have been safely stored on a user’s local repository. They are then “pushed” to the remote repository for others to have access to the changes. Modified files are files that have been changed but have not yet been committed to the local repository. Staged files are files that a user has marked as modified and will go into the user’s next commit. The overall three main sections of a project are the Git directory, the working tree, and the staging area. The Git directory is what has been copied when you clone a repository from another computer. The working directory is a single checkout of one version of the project. The staging area stores information about what will go into your next commit. Versions move back and forth between these 3 stages and remain on your local repository until you push all versions back to the remote repository that you cloned.
+            </p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
         <div class="featurette" id="topic3">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/repository.png">
             <h2 class="featurette-heading">Highlight #3
-                <span class="text-muted">Topic 3 Header</span>
+                <span class="text-muted">Obtaining a Git Repository</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">There are two methods for obtaining a Git repository: you can create a Git repository from a local directory that is not currently under version control or you can clone an existing Git repository from elsewhere. Both methods create a Git repository on your local machine. 
+
+                <br><br>To create a Git repository, you must first go to the project’s directory and type the “git init” command to create a new subdirectory named .git. This subdirectory contains all of your repository files; however, nothing in the project has been tracked yet. You currently are working with just a repository skeleton. To start tracking, you can utilize the “git add” command to select the files that you want to track, followed by an initial commit.
+
+               <br><br>To clone an existing Git repository, type “git clone.” During the cloning process, every file and its version history of the entire project is cloned. Rather than just receiving a working copy of the repository, Git will receive copies of all the data available on the server. Often times the clones can serve as useful backups in case there are issues with any servers on the network. The creation and initialization of the Git repository are both embedded within the git clone command. Once cloned, a user should immediately have access to all file versions of the project’s history and be able to check out the latest versions of those files on their local machine. 
+            </p>
         </div>
         
         <hr class="featurette-divider">
         
        <!-- Fourth Featurette -->
         <div class="featurette" id="topic4">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/tracks.png">
             <h2 class="featurette-heading">Highlight #4
-                <span class="text-muted">Topic 4 Header</span>
+                <span class="text-muted">Tracking Changes</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Once you have a Git repository, you can immediately start making changes and committing those changes for each phase of the project that needs to be recorded. In the working directory (the checked-out versions of the files), files can either be tracked or untracked. Git records files like a series of snapshots, so tracked files are the files that were included in the last snapshot a user committed. Tracked files are either unmodified, modified, or staged. Untracked files include all the files that were not in the last snapshot and are not in the staging area. If a user checks out a file, edits the contents, but does not stage the file, Git doesn’t record a snapshot of that file. The file is modified, but because it was not staged, the changes were not committed to the repository. The same applies to the creation of new files. If Git sees a files that was not in the previous commit, Git will not track it unless it is told to do so. This prevents the automatic tracking of files that you don’t want included in the commit.
+            </p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Fifth Featurette -->
         <div class="featurette" id="topic5">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/github.png">
             <h2 class="featurette-heading">Highlight #5
-                <span class="text-muted">Topic 5 Header</span>
+                <span class="text-muted">GitHub</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Github is one of the most popular hosts for Git repositories, serving as the central point of collaboration between millions of users. GitHub is not a direct part of the Git open source project, but because it is such a useful tool for Git hosting, issue tracking, and code collaboration, many professionals use Github for their personal and professional projects. While GitHub does offer paid plans that include the option of creating private projects, GitHub offers free accounts and full functionality with the expectation that your projects are open to the public, meaning everyone has “read” access. 
+
+                <br><br>Once signed up, you can connect with Git repositories using the https protocol. If using the Secure Shell (SSH) protocol, a user can securely connect and authenticate to remote servers and services. SSH provides several alternative options for authentication and encryption. To use SSH servers, a user must configure a public key. With SSH keys, a GitHub user can connect to a server without supplying a username or password at each visit. Users can have several keys depending on the number of projects they are working on. These keys are stored and generally have easy to remember names so that a user can find his or her project-specific key quickly.  GitHub also offers two-factor authentication to mitigate the risk of your account being compromised due to a stolen password. 
+            </p>
         </div>
 
         <hr class="featurette-divider">
